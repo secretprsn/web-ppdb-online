@@ -3,6 +3,7 @@
 @section('title', 'Selamat Datang')
 
 @section('content')
+<link rel="icon" type="image/png" href="{{ asset('ppdb_premium_icon.png') }}">
 <style>
     /* Hero Section Fixes */
     .hero-section {
@@ -386,29 +387,35 @@
             <div class="visual-card">
                 <div class="visual-item">
                     <div class="visual-icon">
-                        <svg width="20" height="20" fill="none" stroke="white" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                        <svg width="24" height="24" fill="none" stroke="white" viewBox="0 0 24 24" style="filter: drop-shadow(0 0 8px rgba(255,255,255,0.3));">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
                     </div>
                     <div>
-                        <div style="font-weight: 700; font-size: 1rem;">Proses Cepat</div>
-                        <div style="font-size: 0.8rem; opacity: 0.6;">Hanya butuh 5 menit</div>
+                        <div style="font-weight: 700; font-size: 1rem;">Verifikasi Kilat</div>
+                        <div style="font-size: 0.8rem; opacity: 0.7;">Terjamin & Terpercaya</div>
                     </div>
                 </div>
                 <div class="visual-item">
                     <div class="visual-icon">
-                        <svg width="20" height="20" fill="none" stroke="white" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                        <svg width="24" height="24" fill="none" stroke="white" viewBox="0 0 24 24" style="filter: drop-shadow(0 0 8px rgba(255,255,255,0.3));">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.519 1.494-2.91 2.518-4.148"/>
+                        </svg>
                     </div>
                     <div>
-                        <div style="font-weight: 700; font-size: 1rem;">Full Online</div>
-                        <div style="font-size: 0.8rem; opacity: 0.6;">Tanpa perlu datang ke sekolah</div>
+                        <div style="font-weight: 700; font-size: 1rem;">Akses Prioritas</div>
+                        <div style="font-size: 0.8rem; opacity: 0.7;">Pendaftaran Full Online</div>
                     </div>
                 </div>
                 <div class="visual-item" style="border: none; margin: 0; padding: 0;">
                     <div class="visual-icon">
-                        <svg width="20" height="20" fill="none" stroke="white" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        <svg width="24" height="24" fill="none" stroke="white" viewBox="0 0 24 24" style="filter: drop-shadow(0 0 8px rgba(255,255,255,0.3));">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
                     </div>
                     <div>
-                        <div style="font-weight: 700; font-size: 1rem;">Real-time</div>
-                        <div style="font-size: 0.8rem; opacity: 0.6;">Pantau status verifikasi</div>
+                        <div style="font-weight: 700; font-size: 1rem;">Update Instan</div>
+                        <div style="font-size: 0.8rem; opacity: 0.7;">Hasil Seleksi Real-time</div>
                     </div>
                 </div>
             </div>
