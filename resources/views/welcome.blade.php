@@ -161,31 +161,48 @@
     .btn-register:hover { background: #152a45; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(30,58,95,0.2); }
 
     .hero-section {
-        background: linear-gradient(135deg, #1E3A5F 0%, #3A7CA5 100%);
-        min-height: 90vh;
+        height: 100vh;
         display: flex;
         align-items: center;
-        padding: 6rem 2rem;
+        padding: 0 4rem;
         color: white;
         position: relative;
         overflow: hidden;
+        background: transparent !important;
+    }
+    .hero-video {
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        object-fit: cover;
+        z-index: 1;
+        filter: brightness(0.7) contrast(1.1);
+    }
+    .hero-overlay {
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: linear-gradient(to right, rgba(30, 58, 95, 0.8), rgba(30, 58, 95, 0.3));
+        z-index: 2;
     }
 
     /* Media Queries */
     @media (max-width: 1024px) {
-        .hero-grid { grid-template-columns: 1fr; text-align: center; gap: 4rem; }
-        .hero-content h1 { font-size: 3rem; }
-        .hero-btns { justify-content: center; }
+        .custom-nav { padding: 0 2rem; }
         .nav-links { display: none; }
         .mobile-menu-btn { display: block; }
+        .hero-section { height: auto; min-height: 100vh; padding: 8rem 2rem; }
+        .hero-content { grid-template-columns: 1fr; text-align: center; gap: 3rem; }
+        .hero-title { font-size: 3rem; }
+        .hero-subtitle { margin: 0 auto 3rem; }
+        .visual-card { margin: 0 auto; transform: none; }
     }
 
     @media (max-width: 768px) {
         .section-padding { padding: 5rem 1.5rem; }
         .section-title h2 { font-size: 2.25rem; }
-        .hero-content h1 { font-size: 2.5rem; }
+        .hero-title { font-size: 2.5rem; }
         .grid-container { grid-template-columns: 1fr; }
         .major-card { padding: 2rem; }
+        .stats-container { grid-template-columns: 1fr; margin-top: -2rem; gap: 1rem; }
     }
     
     /* Stats Grid Fix */
@@ -347,9 +364,13 @@
 </div>
 
 <section class="hero-section">
-    <div class="hero-pattern"></div>
-    <div class="floating-shape" style="width: 300px; height: 300px; top: -100px; right: -50px;"></div>
-    <div class="floating-shape" style="width: 200px; height: 200px; bottom: -50px; left: -50px; opacity: 0.1;"></div>
+    <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="{{ asset('videos/Cinematic_Educational_Video_In_a_cinematic_style_the_sequence_opens_with_a_m5K4et3S (2).mp4') }}" type="video/mp4">
+        <source src="{{ asset('videos/hero.mp4') }}" type="video/mp4">
+        <!-- Fallback if local video not found -->
+        <source src="https://telkomuniversity.ac.id/wp-content/uploads/2021/05/video-telkom-university.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
     
     <div class="hero-content gsap-fade">
         <div class="hero-text">
@@ -470,7 +491,7 @@
         <div style="font-size: 1.75rem; font-weight: 800; color: white; margin-bottom: 1.5rem; letter-spacing: -0.02em;">PPDB <span style="color: #3A7CA5;">Online</span></div>
         <p style="color: rgba(255,255,255,0.6); font-size: 0.9375rem; max-width: 600px; margin: 0 auto 2.5rem;">Platform terpadu penerimaan peserta didik baru dengan proses yang transparan, akuntabel, dan profesional.</p>
         <div style="width: 40px; height: 2px; background: #3A7CA5; margin: 0 auto 2.5rem;"></div>
-        <p style="color: rgba(255,255,255,0.4); font-size: 0.8125rem;">&copy; {{ date('Y') }} SMK Negeri Unggulan. Seluruh hak cipta dilindungi.</p>
+        <p style="color: rgba(255,255,255,0.4); font-size: 0.8125rem;">&copy; {{ date('Y') }} SMK Negeri 4 Bandung. Seluruh hak cipta dilindungi.</p>
     </div>
 </footer>
 
