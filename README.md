@@ -1,59 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# PPDB Online SMK Negeri 4 Bandung
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Deskripsi Proyek
+PPDB Online adalah platform terpadu yang dirancang untuk mengelola proses Penerimaan Peserta Didik Baru secara digital. Sistem ini bertujuan untuk memberikan transparansi, kemudahan, dan akuntabilitas dalam setiap tahapan pendaftaran siswa baru, mulai dari pengisian data hingga verifikasi hasil.
 
-## About Laravel
+## Fitur Utama
+Sistem ini dilengkapi dengan berbagai fitur modern untuk mendukung pengalaman pengguna yang optimal:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Antarmuka Premium: Desain menggunakan tema Navy Blue yang elegan dengan estetika korporat profesional.
+2. Latar Belakang Video Sinematik: Implementasi video latar belakang yang dinamis pada bagian beranda untuk kesan visual yang kuat.
+3. Manajemen Jadwal: Informasi tahapan pendaftaran yang terintegrasi dan mudah dipantau.
+4. Pilihan Jurusan: Katalog program keahlian lengkap dengan informasi kuota dan deskripsi kompetensi.
+5. Dasbor Pengguna: Ruang kerja terpisah untuk Calon Siswa dan Admin sekolah.
+6. Responsivitas Mobile: Tampilan yang dioptimalkan untuk berbagai perangkat, termasuk komputer, tablet, dan smartphone.
+7. Animasi GSAP: Transisi elemen yang halus menggunakan GreenSock Animation Platform untuk pengalaman interaktif yang lebih hidup.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Tumpukan Teknologi
+Proyek ini dibangun menggunakan teknologi terkini:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Framework: Laravel 12
+* Bahasa Pemrograman: PHP, JavaScript
+* Styling: Vanilla CSS (Custom Properties)
+* Animasi: GSAP (GreenSock Animation Platform)
+* Database: MySQL (didukung oleh Eloquent ORM)
+* Aset Video: Local MP4 integration
 
-## Learning Laravel
+## Persyaratan Sistem
+Untuk menjalankan proyek ini di lingkungan lokal, pastikan Anda memiliki:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+* PHP >= 8.2
+* Composer
+* Node.js dan NPM
+* MySQL Server
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Panduan Instalasi
 
-## Laravel Sponsors
+1. Salin repositori:
+   git clone https://github.com/secretprsn/web-ppdb-online.git
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+2. Masuk ke direktori proyek:
+   cd web-ppdb-online
 
-### Premium Partners
+3. Instal dependensi PHP:
+   composer install
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+4. Instal dependensi JavaScript:
+   npm install
 
-## Contributing
+5. Salin file konfigurasi lingkungan:
+   cp .env.example .env
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+6. Generate key aplikasi:
+   php artisan key:generate
 
-## Code of Conduct
+7. Konfigurasi database di file .env, lalu jalankan migrasi:
+   php artisan migrate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+8. Jalankan server lokal:
+   php artisan serve
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Lisensi
+Hak Cipta (c) 2026 SMK Negeri 4 Bandung. Seluruh hak cipta dilindungi.
