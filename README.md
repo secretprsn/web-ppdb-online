@@ -1,4 +1,4 @@
-<img width="1024" height="488" alt="Dashboard Utama" src="https://github.com/user-attachments/assets/e3647a78-79f0-43cb-bd35-d2c1a63ad839" /><img width="1024" height="488" alt="Dashboard Utama" src="https://github.com/user-attachments/assets/a64261f0-1994-4fa9-af13-c44ab1ff81ad" /># PPDB Online: Sistem Pendaftaran Siswa Baru Terintegrasi
+# PPDB Online: Sistem Pendaftaran Siswa Baru Terintegrasi
 
 Sistem Penerimaan Peserta Didik Baru (PPDB) Online berbasis web yang dirancang untuk mendigitalisasi proses pendaftaran sekolah secara efisien, aman, dan transparan.
 
@@ -42,34 +42,31 @@ Berikut adalah teknologi utama yang digunakan dalam pengembangan sistem PPDB Onl
 
 ## 4. Video Demo
 Rekaman operasional sistem tanpa penjelasan suara dapat diakses melalui tautan berikut:
-* [Link Video Demo PPDB Online](https://drive.google.com/drive/folders/1Rlhh9NYz9-vMlA35jrhbZHqzjkysKkSc)
+* [Link Video Demo PPDB Online](GANTI_DENGAN_LINK_YOUTUBE_ATAU_DRIVE_ANDA)
 
 ---
 
 ## 5. Screenshot Website
 
-### Landing Page (Dashboard Utama)
-![Admin Panel](<img width="1024" height="488" alt="Dashboard Utama" src="https://github.com/user-attachments/assets/b90b3c80-8428-47fb-acf7-0f1d8b18f6ad" />
-)
-*Landing page mengenai informasi seputar PPDB*
+### Landing Page / Dashboard Utama
+![Landing Page](ss_landing_page.png)
+*Halaman utama informasi alur pendaftaran dan profil PPDB.*
 
 ### Dashboard Siswa
-![Dashboard Siswa](<img width="1366" height="652" alt="Dashboard User" src="https://github.com/user-attachments/assets/0f152e0c-b505-4867-b6ea-a4d55bd7e9be" />
-)
-*Tampilan beranda pendaftaran dan pelacakan status berkas.*
+![Dashboard Siswa](ss_dashboard_siswa.png)
+*Antarmuka pengisian formulir, unggah dokumen, dan pemantauan status seleksi.*
 
-### Panel Kendali Admin
-![Admin Panel](<img width="1366" height="654" alt="Dashboard Admin" src="https://github.com/user-attachments/assets/33e2c1b3-9dcf-440f-a2a7-86870ff57858" />
-)
-*Pusat verifikasi dokumen dan pengelolaan kapasitas jurusan.*
+### Dashboard Admin
+![Dashboard Admin](ss_dashboard_admin.png)
+*Panel kontrol utama panitia untuk verifikasi data, berkas pendaftar, dan pengaturan kuota.*
 
 ---
 
 ## 6. Nama Kelompok dan Anggota
-Proyek ini disusun oleh Kelompok [11]:
+Proyek ini disusun oleh Kelompok 11:
 
-| No | Nama Anggota | NIM | Peran / Fokus Tugas |
-|---|---|---|---|
-| 1 | [Raditya Nurakmal Irsyad] | [27] | 
-| 2 | [Khalifah Sayid Lathif] | [14] | 
-| 3 | [Gianni Zidane] | [11] | 
+| No | Nama Anggota | NIM |
+|---|---|---|
+| 1 | Raditya Nurakmal Irsyad | 27 |
+| 2 | Khalifah Sayid Lathif | 14 |
+| 3 | Gianni Zidane | 11 |
