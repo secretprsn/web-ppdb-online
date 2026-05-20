@@ -65,7 +65,7 @@ Rekaman operasional sistem tanpa penjelasan suara dapat diakses melalui tautan b
 ## 6. Nama Kelompok dan Anggota
 Proyek ini disusun oleh Kelompok 11:
 
-| No | Nama Anggota | NIM |
+| No | Nama Anggota | No Absen |
 |---|---|---|
 | 1 | Raditya Nurakmal Irsyad | 27 |
 | 2 | Khalifah Sayid Lathif | 14 |
