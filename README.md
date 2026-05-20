@@ -42,7 +42,7 @@ Berikut adalah teknologi utama yang digunakan dalam pengembangan sistem PPDB Onl
 
 ## 4. Video Demo
 Rekaman operasional sistem tanpa penjelasan suara dapat diakses melalui tautan berikut:
-* [Link Video Demo PPDB Online](GANTI_DENGAN_LINK_YOUTUBE_ATAU_DRIVE_ANDA)
+* [Link Video Demo PPDB Online](https://drive.google.com/drive/folders/1Rlhh9NYz9-vMlA35jrhbZHqzjkysKkSc)
 
 ---
 
